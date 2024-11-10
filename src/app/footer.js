@@ -9,28 +9,28 @@ export default function Footer() {
           <div className="payment-cards">
             <Image
               className="payment-cards-img"
-              src="/assets/visa-logo.PNG"
+              src="/assets/visa-logo.png"
               alt="logo visa"
               width={64}
               height={32}
             ></Image>
             <Image
               className="payment-cards-img"
-              src="/assets/mastercard-logo.PNG"
+              src="/assets/mastercard-logo.png"
               alt="logo mastercard"
               width={64}
               height={32}
             ></Image>
             <Image
               className="payment-cards-img"
-              src="/assets/americanexpress-logo.PNG"
+              src="/assets/americanexpress-logo.png"
               alt="logo american express"
               width={64}
               height={32}
             ></Image>
             <Image
               className="payment-cards-img"
-              src="/assets/skrill-logo.PNG"
+              src="/assets/skrill-logo.png"
               alt="logo skrill"
               width={64}
               height={32}
@@ -39,28 +39,28 @@ export default function Footer() {
           <div className="payment-coins">
             <Image
               className="payment-coins-img"
-              src="/assets/bitverde-logo.PNG"
+              src="/assets/bitverde-logo.png"
               alt="logo bitcoin verde"
               width={24}
               height={24}
             ></Image>
             <Image
               className="payment-coins-img"
-              src="/assets/ethereum-logo.PNG"
+              src="/assets/ethereum-logo.png"
               alt="logo ethereum"
               width={24}
               height={24}
             ></Image>
             <Image
               className="payment-coins-img"
-              src="/assets/bitamarillo-logo.PNG"
+              src="/assets/bitamarillo-logo.png"
               alt="logo bitcoin amarillo"
               width={24}
               height={24}
             ></Image>
             <Image
               className="payment-coins-img"
-              src="/assets/litecoin-logo.PNG"
+              src="/assets/litecoin-logo.png"
               alt="logo litecoin"
               width={24}
               height={24}
@@ -73,28 +73,28 @@ export default function Footer() {
         <div className="information-networks">
           <Image
             className="information-networks-img"
-            src="/assets/facebook-logo.PNG"
+            src="/assets/facebook-logo.png"
             alt="logo facebook"
             width={40}
             height={40}
           ></Image>
           <Image
             className="information-networks-img"
-            src="/assets/instagram-logo.PNG"
+            src="/assets/instagram-logo.png"
             alt="logo instagram"
             width={40}
             height={40}
           ></Image>
           <Image
             className="information-networks-img"
-            src="/assets/twitter-logo.PNG"
+            src="/assets/twitter-logo.png"
             alt="logo twitter"
             width={40}
             height={40}
           ></Image>
           <Image
             className="information-networks-img"
-            src="/assets/discord-logo.PNG"
+            src="/assets/discord-logo.png"
             alt="logo discord"
             width={40}
             height={40}
