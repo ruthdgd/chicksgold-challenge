@@ -9,26 +9,26 @@ Cumple con las indicaciones de realizarlo sin que sea funcional. Por esta razon,
 ![vista desde celular](public/assets/vista-celular.PNG)
 
 ## Vista desde tablet (768px) 
-![vista desktop](/assets/vista-tablet.PNG)
+![vista desktop](public/assets/vista-tablet.PNG)
 
 ## Vista en desktop (1440px) 
 ![vista desktop](/public/assets/vista1440px.PNG)
 
 ## Navbar 
 El navbar está compuesto por el logo de Chicks Gold, el botón "SIGN IN" y el icono de menu hamburguesa. Al hacer click sobre el se despliega el menu.
-![navbar](assets/menu-responsive.PNG)
+![navbar](public/assets/menu-responsive.PNG)
 
 ## Cards
 
 * Al realizar la card, maquete un input numbre, solo con el numero y los iconos de las flechas. El mismo no es funcional, ya que para eso deberia utilizar javascript. 
 
-![cards](assets/cards-de-producto.PNG)
+![cards](public/assets/cards-de-producto.PNG)
 
 ## Footer
 
 * El footer cuenta con los logos y la informacion de sobre la empresa. 
 
-![Footer](assets/footer.PNG)
+![Footer](public/assets/footer.PNG)
 
 
 
