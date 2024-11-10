@@ -6,29 +6,29 @@ El proyecto es responsive, siguendo la modalidad mobile first.
 Cumple con las indicaciones de realizarlo sin que sea funcional. Por esta razon, se encontraran varios elementos que no son funcionales pero que cumplen con lo visual.
 
 ## Vista desde el celular
-![vista desde celular](/challenge/public/assets/vista-celular.PNG)
+![vista desde celular](assets/vista-celular.PNG)
 
 ## Vista desde tablet (768px) 
-![vista desktop](/challenge/public/assets/vista-tablet.PNG)
+![vista desktop](assets/vista-tablet.PNG)
 
 ## Vista en desktop (1440px) 
-![vista desktop](/challenge/public/assets/vista1440px.PNG)
+![vista desktop](assets/vista1440px.PNG)
 
 ## Navbar 
 El navbar está compuesto por el logo de Chicks Gold, el botón "SIGN IN" y el icono de menu hamburguesa. Al hacer click sobre el se despliega el menu.
-![navbar](/challenge/public/assets/menu-responsive.PNG)
+![navbar](assets/menu-responsive.PNG)
 
 ## Cards
 
 * Al realizar la card, maquete un input numbre, solo con el numero y los iconos de las flechas. El mismo no es funcional, ya que para eso deberia utilizar javascript. 
 
-![cards](/challenge/public/assets/cards-de-producto.PNG)
+![cards](assets/cards-de-producto.PNG)
 
 ## Footer
 
 * El footer cuenta con los logos y la informacion de sobre la empresa. 
 
-![Footer](/challenge/public/assets/footer.PNG)
+![Footer](assets/footer.PNG)
 
 
 
