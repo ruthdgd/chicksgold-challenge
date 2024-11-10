@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main>
       <h1 className="title">Condimentum consectetur</h1>
+      {/* *************** buscador, filtros ************** */}
       <section className="filters">
         <div className="filters-games">
           <div className="filters-games-select">
@@ -37,6 +38,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* ******************* grilla de cards ************************ */}
       <section className="cards">
         <div className="cards-filters">
           <p className="cards-filters-show">Showing 20 - from 125</p>
@@ -697,7 +699,7 @@ export default function Home() {
             </div>
         </div>
         </div>
-   
+        {/* ******************** pagination ******************** */}
         <div className="pagination">
           <ul className="pagination-list">
             <li><i class="fi fi-rr-angle-small-left"></i></li>

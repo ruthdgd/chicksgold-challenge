@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function Header() {
   return (
       <header>
+        {/* **************** menu **************** */}
         <nav className="navbar">
           <div className="navbar-item">
             <Image

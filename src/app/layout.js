@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* ***********CDN DE ICONOS USADOS EN EL PROYECTO*********************** */}
       <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css'></link>
       <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-straight/css/uicons-solid-straight.css'></link>
       <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-straight/css/uicons-thin-straight.css'></link>

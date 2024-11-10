@@ -490,7 +490,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-signin{
+    margin-right: 8rem;
+  }
+
   .title{
     width: 80%;
   }
@@ -552,12 +561,14 @@
   .payment-container {
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
     padding-bottom: 1rem;
   }
 
   .payment-cards, .payment-coins {
-    width: 50%;
+    width: 40%;
   }
   
   .information-networks {
