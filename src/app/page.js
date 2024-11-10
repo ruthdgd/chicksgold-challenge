@@ -70,7 +70,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -113,7 +113,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -156,7 +156,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -199,7 +199,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -242,7 +242,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -285,7 +285,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -328,7 +328,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -371,7 +371,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -414,7 +414,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -457,7 +457,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -500,7 +500,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -543,7 +543,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -586,7 +586,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -629,7 +629,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
@@ -672,7 +672,7 @@ export default function Home() {
             </div>
             <Image
               className="card-product-img"
-              src="/assets/imagencard1.PNG"
+              src="/assets/imagencard1.png"
               alt="producto"
               width={64}
               height={64}
