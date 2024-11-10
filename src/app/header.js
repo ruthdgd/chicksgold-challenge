@@ -13,8 +13,7 @@ export default function Header() {
               width={144}
               height={64}
             />
-            
-           </div>
+          </div>
           <input type="checkbox" name="menu" className="checkbtn" />
           <i class="fi fi-br-menu-burger navbar-icons"></i>
           <i class="fi fi-br-x navbar-icons"></i>          
@@ -32,8 +31,7 @@ export default function Header() {
               <li><i class="fi fi-ss-shopping-cart"></i> CART (5)</li>
             </ul>
           </div>
-          <button className="navbar-signin"> SIGN IN <i class="fi fi-ss-user-add"></i></button>
-         
+          <button className="navbar-signin">SIGN IN<i class="fi fi-ss-user-add"></i></button>
         </nav>
       </header>
 

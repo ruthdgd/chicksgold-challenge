@@ -439,8 +439,8 @@ export default function Home() {
             </div>
         </div>
         <div className="card-product">
-            <div className="card-product-head">
-              <div className="card-product-state">
+            <div className="card-product-head show">
+              <div className="card-product-state hidden">
                 <div className="card-product-sale">
                   <i class="fi fi-ss-bullet"></i>
                   <p> ON SALE</p>
@@ -482,8 +482,8 @@ export default function Home() {
             </div>
         </div>
         <div className="card-product">
-            <div className="card-product-head">
-              <div className="card-product-state">
+            <div className="card-product-head show">
+              <div className="card-product-state hidden">
                 <div className="card-product-sale">
                   <i class="fi fi-ss-bullet"></i>
                   <p> ON SALE</p>
@@ -525,8 +525,8 @@ export default function Home() {
             </div>
         </div>
         <div className="card-product">
-            <div className="card-product-head">
-              <div className="card-product-state">
+            <div className="card-product-head show">
+              <div className="card-product-state hidden">
                 <div className="card-product-sale">
                   <i class="fi fi-ss-bullet"></i>
                   <p> ON SALE</p>
@@ -568,8 +568,8 @@ export default function Home() {
             </div>
         </div>
         <div className="card-product">
-            <div className="card-product-head">
-              <div className="card-product-state">
+            <div className="card-product-head show">
+              <div className="card-product-state hidden">
                 <div className="card-product-sale">
                   <i class="fi fi-ss-bullet"></i>
                   <p> ON SALE</p>
@@ -611,8 +611,8 @@ export default function Home() {
             </div>
         </div>
         <div className="card-product">
-            <div className="card-product-head">
-              <div className="card-product-state">
+            <div className="card-product-head show">
+              <div className="card-product-state hidden">
                 <div className="card-product-sale">
                   <i class="fi fi-ss-bullet"></i>
                   <p> ON SALE</p>
@@ -654,15 +654,15 @@ export default function Home() {
             </div>
         </div>
         <div className="card-product">
-            <div className="card-product-head">
-              <div className="card-product-state">
+            <div className="card-product-head show">
+              <div className="card-product-state hidden">
                 <div className="card-product-sale">
                   <i class="fi fi-ss-bullet"></i>
                   <p> ON SALE</p>
                 </div>
                 <p className="stock">In stock</p>
               </div>
-              <div className="product-stock">
+              <div className="product-stock show">
                 <p>1</p>
                 <div className="product-arrow">
                   <i class="fi fi-br-caret-up"></i>
