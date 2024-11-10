@@ -39,7 +39,7 @@
   }
 
   .navbar-item {
-    width: 85%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -150,7 +150,7 @@
     padding: 0.5rem;
     border-radius: 5px;
     color: var(--font-color);
-    background-color: var(--sixth-color);
+    background-color: #66687383;
   }
 
   .filters-games-search {
@@ -160,7 +160,7 @@
     border-radius: 5px;
     display: flex;
     color: var(--font-color);
-    background-color: var(--sixth-color);
+    background-color: #66687383;
     
   }
 
@@ -170,7 +170,7 @@
   }
 
   select, input{
-    background-color: var(--sixth-color);
+    background-color: #66687338;
     color: var(--font-color);
     font-size: 1rem;
     border-style: none;
@@ -181,7 +181,7 @@
     border-radius: 5px;
     margin-bottom: 2rem;
     display: flex;
-    background-color: var(--sixth-color);
+    background-color: #66687383;
   }
 
   .filters-games, .icons{
@@ -197,15 +197,10 @@
     align-items: center;
   }
 
-  .cards-filters-items{
-    width: 65%;
-    padding: 0.4rem;
-    border-radius: 4px;
-    background-color: var(--primary-color);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+  .filters-price {
+    font-size: 10px;
+    color: var(--font-sacondary-color);
+  }
 
   .cards {
     width: 90%;
@@ -219,7 +214,7 @@
     align-items: center;
     flex-wrap: wrap;
    
-}
+  }
 
   .cards-filters{
     width: 90%;
@@ -227,6 +222,20 @@
     padding: 0.5rem;
     color: var(--font-sacondary-color);
   }
+
+  .cards-filters-show {
+    font-weight: lighter;
+  }
+
+  .cards-filters-items{
+    width: 65%;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
   .cards-filters icons{
     color: var(--fourth-color)  
@@ -320,6 +329,7 @@
 
   .card-product-description {
     font-size: 0.7rem;
+    font-weight: lighter;
   }
 
   .card-product-details {
@@ -390,11 +400,21 @@
 
   .payment {
     width: 100%;
-    padding: 0.5rem;
     background-color: #242833;
     border-top: var(--secondary-color) solid 1px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .payment-container {
+      width: 90%;
+      padding-top: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
   }
 
   .payment-cards {
@@ -432,8 +452,7 @@
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
   }
 
   .information-networks {
@@ -449,8 +468,17 @@
   }
 
   .information-list {
-    width: 90%;
+    padding: 1rem;
     margin: 1rem;
+    line-height: 35px;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .information-list p {
+    font-size: 14px;
   }
 
   .information-stars {
@@ -468,8 +496,12 @@
 
 @media screen and (min-width: 768px) {
   
+  .title{
+    width: 80%;
+  }
+
   .filters{
-    width: 90%;
+    width: 80%;
     display: flex;
     flex-direction: row;
   }
@@ -503,5 +535,97 @@
     width: 50%;
   }
 
+  .cards {
+    width: 80%;
+  }
+
+  .cards-filters {
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cards-filters-items {
+    width: 10rem;
+  }
+
+  .pagination li {
+    padding: 10px 15px;
+  }
+
+  .payment-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+  }
+
+  .payment-cards, .payment-coins {
+    width: 50%;
+  }
+  
+  .information-networks {
+    width: 80%;
+  }
+
+  .information-grilla {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+   .navbar{
+   display: flex;
+   justify-content: space-between;
+  }
+  .checkbtn, .navbar-icons {
+    display: none;
+  }
+
+  .navbar-menu {
+    width: 90%;
+    top: 0;
+    z-index: 1;
+    width: unset;
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .navbar-item {
+    width: 10rem;
+    background-color: transparent;
+  }
+
+  .navbarItems {    
+    display: flex;
+  }
+
+  .navbarItems li {
+    background-color: transparent;
+  }
+
+  .navbar-signin {
+    margin-right: 1rem;
+  }
+
+  /* .nav_menu {
+    top: 0;
+    z-index: 1;
+    width: unset;
+    display: flex;
+  }
+  .nav_menu li a{
+    height: 4rem;
+    padding: 14px 12px 6px;
+    background-color: transparent;
+    color: #031d24;
+  } */ 
 }
 

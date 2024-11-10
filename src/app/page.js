@@ -22,7 +22,7 @@ export default function Home() {
           <div className="filters-items-price">
             <i class="icons fi fi-ss-sack"></i>
             <div>
-              <p>Price</p>
+              <p className="filters-price">Price</p>
               <p>All</p>
             </div>
             <i class="fi fi-rr-caret-down"></i>
@@ -30,7 +30,7 @@ export default function Home() {
           <div className="filters-items-price">
             <i class="icons fi fi-ss-feather-pointed"></i>
             <div>
-              <p>Item type</p>
+              <p className="filters-price">Item type</p>
               <p>All</p>
             </div>
             <i class="fi fi-rr-caret-down"></i>
@@ -39,7 +39,7 @@ export default function Home() {
       </section>
       <section className="cards">
         <div className="cards-filters">
-          <p>Showing 20 - from 125</p>
+          <p className="cards-filters-show">Showing 20 - from 125</p>
           <div className="cards-filters-items">
             <i class="fi fi-ss-settings-sliders icons"></i>
             <div>

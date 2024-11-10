@@ -5,66 +5,68 @@ export default function Footer() {
   return (
     <footer>
       <section className="payment">
-        <div className="payment-cards">
-          <Image
-            className="payment-cards-img"
-            src="/assets/visa-logo.PNG"
-            alt="logo visa"
-            width={300}
-            height={100}
-          ></Image>
-          <Image
-            className="payment-cards-img"
-            src="/assets/mastercard-logo.PNG"
-            alt="logo mastercard"
-            width={150}
-            height={100}
-          ></Image>
-          <Image
-            className="payment-cards-img"
-            src="/assets/americanexpress-logo.PNG"
-            alt="logo american express"
-            width={300}
-            height={100}
-          ></Image>
-          <Image
-            className="payment-cards-img"
-            src="/assets/skrill-logo.PNG"
-            alt="logo skrill"
-            width={200}
-            height={100}
-          ></Image>
-        </div>
-        <div className="payment-coins">
-          <Image
-            className="payment-coins-img"
-            src="/assets/bitverde-logo.PNG"
-            alt="logo bitcoin verde"
-            width={100}
-            height={100}
-          ></Image>
-          <Image
-            className="payment-coins-img"
-            src="/assets/ethereum-logo.PNG"
-            alt="logo ethereum"
-            width={100}
-            height={100}
-          ></Image>
-          <Image
-            className="payment-coins-img"
-            src="/assets/bitamarillo-logo.PNG"
-            alt="logo bitcoin amarillo"
-            width={100}
-            height={100}
-          ></Image>
-          <Image
-            className="payment-coins-img"
-            src="/assets/litecoin-logo.PNG"
-            alt="logo litecoin"
-            width={100}
-            height={100}
-          ></Image>
-          <p> and 50+ more </p>
+        <div className="payment-container">
+          <div className="payment-cards">
+            <Image
+              className="payment-cards-img"
+              src="/assets/visa-logo.PNG"
+              alt="logo visa"
+              width={300}
+              height={100}
+            ></Image>
+            <Image
+              className="payment-cards-img"
+              src="/assets/mastercard-logo.PNG"
+              alt="logo mastercard"
+              width={150}
+              height={100}
+            ></Image>
+            <Image
+              className="payment-cards-img"
+              src="/assets/americanexpress-logo.PNG"
+              alt="logo american express"
+              width={300}
+              height={100}
+            ></Image>
+            <Image
+              className="payment-cards-img"
+              src="/assets/skrill-logo.PNG"
+              alt="logo skrill"
+              width={200}
+              height={100}
+            ></Image>
+          </div>
+          <div className="payment-coins">
+            <Image
+              className="payment-coins-img"
+              src="/assets/bitverde-logo.PNG"
+              alt="logo bitcoin verde"
+              width={100}
+              height={100}
+            ></Image>
+            <Image
+              className="payment-coins-img"
+              src="/assets/ethereum-logo.PNG"
+              alt="logo ethereum"
+              width={100}
+              height={100}
+            ></Image>
+            <Image
+              className="payment-coins-img"
+              src="/assets/bitamarillo-logo.PNG"
+              alt="logo bitcoin amarillo"
+              width={100}
+              height={100}
+            ></Image>
+            <Image
+              className="payment-coins-img"
+              src="/assets/litecoin-logo.PNG"
+              alt="logo litecoin"
+              width={100}
+              height={100}
+            ></Image>
+            <p> and 50+ more </p>
+          </div>
         </div>
       </section>
       <section className="information">
@@ -124,7 +126,7 @@ export default function Footer() {
             <p>FAQ</p>
           </div>
           <div className="information-list">
-            <h3>LEGAL</h3>
+            <h3>Legal</h3>
             <p>Privacy Policy</p>
             <p>Terms of Service</p>
             <p>Copyrigth Policy</p>
