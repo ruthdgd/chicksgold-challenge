@@ -10,8 +10,8 @@ export default function Header() {
               className="navbar-logo"
               src="/assets/chick-gold.PNG"
               alt="logo chicks gold"
-              width={700}
-              height={300}
+              width={144}
+              height={64}
             />
             
            </div>

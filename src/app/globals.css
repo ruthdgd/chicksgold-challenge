@@ -32,8 +32,6 @@
   }
 
   .navbar-logo{
-    height: 4rem !important;
-    width: 9rem !important;
     object-fit: contain;
     padding: 0.5rem;
   }
@@ -305,11 +303,6 @@
     color: var(--fourth-color);
   }
 
-  .card-product-img {
-    width: 4rem;
-    height: 4rem;
-  }
-
   .card-product-logo {
     display: flex;
     justify-content: space-between;
@@ -423,8 +416,6 @@
   }
 
   .payment-cards-img {
-    width: 4rem;
-    height: 2rem;
     object-fit: contain;
   }
 
@@ -436,7 +427,6 @@
   }
 
   .payment-coins-img {
-    width: 1.5rem;
     object-fit: contain;
   }
 
@@ -463,7 +453,6 @@
   }
 
   .information-networks-img {
-    width: 2.5rem;
     object-fit: contain;
   }
 
@@ -488,7 +477,6 @@
   }
 
   .information-star-img {
-    width: 1.5rem;
     object-fit: contain;
   }
 
