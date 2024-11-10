@@ -5,13 +5,16 @@ export default function Header() {
   return (
       <header>
         <nav className="navbar">
-          <Image
-            className="navbar-logo"
-            src="/assets/chick-gold.PNG"
-            alt="logo chicks gold"
-            width={700}
-            height={300}
-          />
+          <div className="navbar-item">
+            <Image
+              className="navbar-logo"
+              src="/assets/chick-gold.PNG"
+              alt="logo chicks gold"
+              width={700}
+              height={300}
+            />
+            <button className="navbar-signin"> SIGN IN <i class="fi fi-ss-user-add"></i></button>
+          </div>
           <input type="checkbox" name="menu" className="checkbtn" />
           <i class="fi fi-br-menu-burger navbar-icons"></i>
           <i class="fi fi-br-x navbar-icons"></i>          
@@ -29,8 +32,9 @@ export default function Header() {
               <li><i class="fi fi-ss-shopping-cart"></i> CART (5)</li>
             </ul>
           </div>
-          <button className="navbar-signin"> SIGN IN <i class="fi fi-ss-user-add"></i></button>
+         
         </nav>
       </header>
+
   );
 }
