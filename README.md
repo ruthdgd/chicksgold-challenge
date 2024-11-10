@@ -1,37 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # chicksgold-challenge
+
+En este proyecto de CHICKS GOLD [Challenge](https://chicksgold-challenge.vercel.app/), es la maquetación de la imagen que hay que recrear, siguiendo las consignas.
+Está realizado en Next.js y CSS.  
+El proyecto es responsive, siguendo la modalidad mobile first.
+Cumple con las indicaciones de realizarlo sin que sea funcional. Por esta razon, se encontraran varios elementos que no son funcionales pero que cumplen con lo visual.
+
+## Vista desde el celular
+![vista desde celular](/challenge/public/assets/vista-celular.PNG)
+
+## Vista desde tablet (768px) 
+![vista desktop](/challenge/public/assets/vista-tablet.PNG)
+
+## Vista en desktop (1440px) 
+![vista desktop](/challenge/public/assets/vista1440px.PNG)
+
+## Navbar 
+El navbar está compuesto por el logo de Chicks Gold, el botón "SIGN IN" y el icono de menu hamburguesa. Al hacer click sobre el se despliega el menu.
+![navbar](/challenge/public/assets/menu-responsive.PNG)
+
+## Cards
+
+* Al realizar la card, maquete un input numbre, solo con el numero y los iconos de las flechas. El mismo no es funcional, ya que para eso deberia utilizar javascript. 
+
+![cards](/challenge/public/assets/cards-de-producto.PNG)
+
+## Footer
+
+* El footer cuenta con los logos y la informacion de sobre la empresa. 
+
+![Footer](/challenge/public/assets/footer.PNG)
+
+
+
+
